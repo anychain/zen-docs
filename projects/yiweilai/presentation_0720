@@ -1,0 +1,33 @@
+1. what we have done
+
+	1) IAAS(topology, security)
+		vms and networks(lb, private network, public network,　port mapping, security)
+
+	2) CI(continuous delivery)
+		environments:
+			development(small env, lastes code)
+			staging(small env, long run test, and demo)
+			production(not setup yet, will setup once 1st edition ok)
+		
+	3) Requriment analysis(cowork with hanxiao)
+		a) database model(db design excel)
+		b) api design(api inteface is common for App, Web or any thirdparty that want to access us)
+		c) UI design
+
+	4) Product
+		a) setup application framework, db, rest api, log, conf.(see codes for details, like building a house, we need bricks, wood)
+		b) auto deployment, all components can be deployed with scripts. (quick deploy, upgrade)
+		c) The main panel(see staging)
+		d) user registration, login, logout(UI and api)
+		e) our schedule(see attachment, app depends on api and web)
+
+2. what to be done after 10/1
+	1) docs and training
+	2) operation, bug fix
+	3)　scale out, add new machines, new services
+	4) new feature, upgrade
+	5) big data management, data collection, modeling
+		case: 根据家庭的小区地址估算家庭的收入情况
+		case: 根据家长的陪同比例以及根据参加互动频率计算家长对孩子的教育的重视度
+		case: 广告投放推送，教育培训机构
+		case: 根据孩子的生长曲线做广告推送
