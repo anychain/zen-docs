@@ -20,7 +20,7 @@
 
 ===
 
-**Note:** The content of **release Arhant** mark with <b style='color:red'>(*)</b>.
+**Note:** The content of **release Arhant** mark with <font color="red"><b>(*)</b></font>.
 
 ===
 
