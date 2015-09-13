@@ -16,18 +16,18 @@
         limitations under the License.
 -->
 
-# Welcome to the Zen documentation!
 
-This design documentation is for Zen Data Platform v0.1 preview edition (Release name: Arhant).
-And guiding the construction of Zen Data Platform online service with minimum functions set.
+# Overview
 
-## Status
+  ![Overview](/design/_static/overview.png)
 
-Incubating.
+# Achitecture
 
-## Content
+  ![Achitecture](/design/_static/internal-details.png)
 
-* [Overview](/design/overview/index.md)
-* [Infrastructure](/design/infrastructure/index.md)
-* [Continous Integration](/design/ci/index.md)
-* [Framework](/design/components/index.md)
+# Release Arhant (v0.1)
+
+At the first stage of Zen Data Platform, only implement the minimum functions set of Zen, check the components in orange:
+
+  ![Arhant](/design/_static/zen-arhant.png)
+    

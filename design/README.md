@@ -1,4 +1,4 @@
-..
+<!--
         Licensed Materials - Property of esse.io
 
         (C) Copyright esse.io Inc. 2015 All Rights Reserved
@@ -14,23 +14,20 @@
         WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
         See the License for the specific language governing permissions and
         limitations under the License.
+-->
 
-.. _overview-label:
+# Welcome to the Zen documentation!
 
-Overview
-==========
+This design documentation is for Zen Data Platform v0.1 preview edition (Release name: Arhant).
+And guiding the construction of Zen Data Platform online service with minimum functions set.
 
-  ![Overview](/design/_static/overview.png)
+## Status
 
-Achitecture
-~~~~~~~~~~~~~
+Incubating.
 
-  ![Achitecture](/design/_static/internal-details.png)
+## Content
 
-Release Arhant (v0.1)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-At the first stage of Zen Data Platform, only implement the minimum functions set of Zen, check the components in orange:
-
-  ![Arhant](/design/_static/zen-arhant.png)
-    
+* [Overview](/design/overview/README.md)
+* [Infrastructure](/design/infrastructure/README.md)
+* [Continous Integration](/design/ci/README.md)
+* [Framework](/design/components/README.md)

@@ -3,4 +3,4 @@ Zen Data Platform documents
 
 ## Design
 
-[Design Documents](/design/index.md)
+[Design Documents](/design/README.md)
