@@ -26,7 +26,7 @@ And guiding the construction of Zen Data Platform online service with minimum fu
 Incubating.
 
 ## Content
-    * [Overview] (overview/index.md)
-    * [Infrastructure] (infrastructure/index.md)
-    * [Continous Integration] (ci/index.md)
-    * [Framework] (components/index.md)
+    * [Overview](overview/index.md)
+    * [Infrastructure](infrastructure/index.md)
+    * [Continous Integration](ci/index.md)
+    * [Framework](components/index.md)
