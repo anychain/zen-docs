@@ -20,17 +20,17 @@
 Overview
 ==========
 
-    ![Overview] (/design/_static/overview.png)
+    ![Overview](/design/_static/overview.png)
 
 Achitecture
 ~~~~~~~~~~~~~
 
-    ![Achitecture] (/design/_static/internal-details.png)
+    ![Achitecture](/design/_static/internal-details.png)
 
 Release Arhant (v0.1)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 At the first stage of Zen Data Platform, only implement the minimum functions set of Zen, check the components in orange:
 
-    ![Arhant] (/design/_static/zen-arhant.png)
+    ![Arhant](/design/_static/zen-arhant.png)
     
