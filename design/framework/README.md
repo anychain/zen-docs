@@ -24,62 +24,62 @@
 
 ===
 
-## Identiry Service **(A)**
-### User Authentication **(A)**
-### Service Registry **(A)**
+## 1. Identiry Service **(A)**
+### 1.1. User Authentication **(A)**
+### 1.2. Service Registry **(A)**
 A Registry service to register and lookup the Zen Services endpoint internally.
 *Reference:* [Keystone](https://wiki.openstack.org/wiki/Keystone)
 
-## Messaging Service **(A)**
+## 2. Messaging Service **(A)**
 
 * [ZeroMQ](http://zeromq.org) 
 
-## Data Connector **(A)**
+## 3. Data Connector **(A)**
 **Note:** For Arhant, just keep it as simple, let user input a URL to download the file.
 
-### SDK
-### Controller
-### Event Handler
-### Data Transport
+### 3.1. SDK
+### 3.2. Controller
+### 3.3. Event Handler
+### 3.4. Data Transport
 The data transport need to handle the data transfer over *internet*, so **transfer resuming** and **data encryption** are required.
 ..* Messaging Queue
 ..* Data Encryption
 
-### Data Sources **(A)**
-#### Flat File **(A)**
-#### MySQL
+### 3.5. Data Sources **(A)**
+#### 3.5.1. Flat File **(A)**
+#### 3.5.2. MySQL
 
-## Data Server **(A)**
-### Controller
-### Event Handler
-### Data Transport
-#### Adapters
+## 4. Data Server **(A)**
+### 4.1. Controller
+### 4.2. Event Handler
+### 4.3. Data Transport
+#### 4.3.1. Adapters
 ..* HDFS Adapter **(A)**
 ..* Kafka Adapter
-### API Service
+### 4.4. API Service
 
-## Multi-tenancy **(A)**
-### Controller **(A)**
-### API Service **(A)**
-### Resource Management **(A)**
-#### Data **(A)**
+## 5. Multi-tenancy **(A)**
+### 5.1. Controller **(A)**
+### 5.2. API Service **(A)**
+### 5.3. Resource Management **(A)**
+#### 5.3.1. Data **(A)**
 * [Multitenancy for Hadoop: Namespaces](http://blog.cask.co/2015/04/multitenancy-for-hadoop-namespaces/)
 * [Multi-Tenancy in HDP 2.0: Capacity Scheduler and YARN](http://hortonworks.com/blog/multi-tenancy-in-hdp-2-0-capacity-scheduler-and-yarn/)
 
-#### Workload(CPU/Memory/IO)
-#### Cluster 
+#### 5.3.2. Workload(CPU/Memory/IO)
+#### 5.3.3. Cluster 
 
-## Data Flow Engine **(A)**
-### Engine and SDK **(A)**
+## 6. Data Flow Engine **(A)**
+### 6.1. Engine and SDK **(A)**
 * [Google Cloud Data Flow](https://cloud.google.com/dataflow/)
 * [Spark Data Flow](https://github.com/cloudera/spark-dataflow)
-### Modeling **(A)**
-### JSON Store
+### 6.2 Modeling **(A)**
+### 6.3 JSON Store
 
-## Job Management/Scheduler **(A)**
-### Job Server **(A)**
-### Scheduler **(A)**
+## 7. Job Management/Scheduler **(A)**
+### 7.1 Job Server **(A)**
+### 7.2 Scheduler **(A)**
 
-## API Service/Client **(A)**
-### API Server **(A)**
-### Python Client ✦ User Dashboard **(A)**
+## 8. API Service/Client **(A)**
+### 8.1. API Server **(A)**
+### 8.2. Python Client ✦ User Dashboard **(A)**
