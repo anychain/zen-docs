@@ -42,8 +42,8 @@ A Registry service to register and lookup the Zen Services endpoint internally.
 ### 3.3. Event Handler
 ### 3.4. Data Transport
 The data transport need to handle the data transfer over *internet*, so **transfer resuming** and **data encryption** are required.
-... Messaging Queue
-... Data Encryption
+* Messaging Queue
+* Data Encryption
 
 ### 3.5. Data Sources **(A)**
 #### 3.5.1. Flat File **(A)**
