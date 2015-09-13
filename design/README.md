@@ -30,4 +30,4 @@ Incubating.
 * [Overview](/design/overview/README.md)
 * [Infrastructure](/design/infrastructure/README.md)
 * [Continous Integration](/design/ci/README.md)
-* [Framework](/design/components/README.md)
+* [Framework](/design/framework/README.md)
