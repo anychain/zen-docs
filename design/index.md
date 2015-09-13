@@ -27,7 +27,7 @@ Incubating.
 
 ## Content
 
-    * [Overview](/design/overview/index.md)
-    * [Infrastructure](/design/infrastructure/index.md)
-    * [Continous Integration](/design/ci/index.md)
-    * [Framework](/design/components/index.md)
+* [Overview](/design/overview/index.md)
+* [Infrastructure](/design/infrastructure/index.md)
+* [Continous Integration](/design/ci/index.md)
+* [Framework](/design/components/index.md)
