@@ -16,40 +16,70 @@
         limitations under the License.
 -->
 
-# Zen Components
+# Zen Services/Components
 
 ===
 
-**Note:** The content of **release Arhant** mark with <font color="red"><b>(*)</b></font>.
+**Note:** The content of **Arhant release** mark with **(A)**.
 
 ===
 
-## Data Connector
+## Identiry Service **(A)**
+### User Authentication **(A)**
+### Service Registry **(A)**
+A Registry service to register and lookup the Zen Services endpoint internally.
+*Reference:* [Keystone](https://wiki.openstack.org/wiki/Keystone)
+
+## Messaging Service **(A)**
+
+* [ZeroMQ](http://zeromq.org) 
+
+## Data Connector **(A)**
+**Note:** For Arhant, just keep it as simple, let user input a URL to download the file.
+
+### SDK
+### Controller
 ### Event Handler
 ### Data Transport
-The data transport need to handle the 
-* Persistent Queue
-* 
-### Data Sources
-#### Flat File
+The data transport need to handle the data transfer over *internet*, so **transfer resuming** and **data encryption** are required.
+..* Messaging Queue
+..* Data Encryption
+
+### Data Sources **(A)**
+#### Flat File **(A)**
 #### MySQL
 
-## Data Server
+## Data Server **(A)**
+### Controller
+### Event Handler
 ### Data Transport
-#### Adapter ( Push to HDFS ...)
+#### Adapters
+..* HDFS Adapter **(A)**
+..* Kafka Adapter
+### API Service
 
-## Multi-tenancy
-### Data
-### CPU/Memory/IO
+## Multi-tenancy **(A)**
+### Controller **(A)**
+### API Service **(A)**
+### Resource Management **(A)**
+#### Data **(A)**
+* [Multitenancy for Hadoop: Namespaces](http://blog.cask.co/2015/04/multitenancy-for-hadoop-namespaces/)
+* [Multi-Tenancy in HDP 2.0: Capacity Scheduler and YARN](http://hortonworks.com/blog/multi-tenancy-in-hdp-2-0-capacity-scheduler-and-yarn/)
 
-## Data Flow Engine
-### Modeling
+#### Workload(CPU/Memory/IO)
+#### Cluster 
+
+## Data Flow Engine **(A)**
+### Engine and SDK **(A)**
+* [Google Cloud Data Flow](https://cloud.google.com/dataflow/)
+* [Spark Data Flow](https://github.com/cloudera/spark-dataflow)
+### Modeling **(A)**
 ### JSON Store
 
-## Job Management/Scheduler
-### Job Server
-### Scheduler
+## Job Management/Scheduler **(A)**
+### Job Server **(A)**
+### Scheduler **(A)**
 
-## API Service/Client
-### API Server
-### Python Client ✦ User Dashboard
+## API Service/Client **(A)**
+### API Server **(A)**
+### Python Client ✦ User Dashboard **(A)**
