@@ -18,5 +18,38 @@
 
 # Zen Components
 
-## Data Connector
+===
 
+**Note:** The content of **release Arhant** mark with <b style='color:red'>(*)</b>.
+
+===
+
+## Data Connector
+### Event Handler
+### Data Transport
+The data transport need to handle the 
+* Persistent Queue
+* 
+### Data Sources
+#### Flat File
+#### MySQL
+
+## Data Server
+### Data Transport
+#### Adapter ( Push to HDFS ...)
+
+## Multi-tenancy
+### Data
+### CPU/Memory/IO
+
+## Data Flow Engine
+### Modeling
+### JSON Store
+
+## Job Management/Scheduler
+### Job Server
+### Scheduler
+
+## API Service/Client
+### API Server
+### Python Client ✦ User Dashboard
