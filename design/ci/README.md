@@ -15,3 +15,24 @@
         See the License for the specific language governing permissions and
         limitations under the License.
 -->
+
+# CI
+
+## 1. Overview
+
+## 2. Code Review
+  ![Code review](/design/_static/ci_gerrit.png)
+
+## 3. CI Workflow
+
+### 3.1. DEV, UT and Code Review
+  ![phase 1](/design/_static/ci-1.png)
+
+### 3.2. Build and Testing
+  ![phase 2](/design/_static/ci-2.png)
+
+### 3.3. Staging
+  ![phase 3](/design/_static/ci-3.png)
+
+### 3.3. Production
+  ![phase 4](/design/_static/ci-4.png)
