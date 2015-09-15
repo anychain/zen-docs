@@ -76,12 +76,16 @@ The data transport need to handle the data transfer over *internet*, so **transf
 * [Google Cloud Data Flow](https://cloud.google.com/dataflow/)
 * [Spark Data Flow](https://github.com/cloudera/spark-dataflow)
 
+Dataflow Engine should be combined with *Job Server*, which is the input/output interface.
+
 ### 6.2 Modeling **(A)**
 ### 6.3 JSON Store
 
 ## 7. Job Management/Scheduler **(A)**
 ### 7.1 Job Server **(A)**
+**Refer to: ** [Job Server](/design/framework/job-server.md)
 ### 7.2 Scheduler **(A)**
+**Refer to: ** [Job Server](/design/framework/job-server.md)
 
 ## 8. API Service/Client **(A)**
 ### 8.1. API Server **(A)**
