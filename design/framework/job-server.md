@@ -164,3 +164,7 @@ Schedule the user job executing time.
     ]
 }
 ```
+
+### 3.4. Job Delete
+
+### 3.5. Job Execute
