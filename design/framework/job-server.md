@@ -28,8 +28,10 @@
 
 * Create Job
 * Describe Jobs
-* Delete Job
-* Execute Job
+  * List Jobs
+  * Show Job execution history
+* Delete Jobs
+* Execute Jobs
 
 ### 2.2. Job Submitter
 Submit the user job via the *Adapter Interface* to Spark, Hadoop, YARN ... when executing the job.
@@ -54,3 +56,111 @@ Schedule the user job executing time.
 * Multi-tenancy Service Client
 * Dispatcher Service Client
 * Encrypting Service Client
+
+## 3. API
+### 3.1. API Version
+**GET**     /
+* **Response Code:** 200 
+* **Response Body:**
+```
+{
+    "versions": [
+        {
+            "id": "v0.1",
+            "links": [
+                {
+                    "href": "http://localhost:8081/v2/",
+                    "rel": "self"
+                }
+            ],
+            "status": "SUPPORTED",
+            "version": "",
+            "min_version": "",
+            "updated": "2015-09-15T11:33:21Z"
+        }
+    ]
+}
+```
+
+### 3.2. Job Create
+**POST**    /v0.1/{tenant_id}/job
+* **Request Body**
+```
+{
+    "job": {
+        "name": "job name",
+        "desc": "job description",
+        "dataflow": "dataflow descriptor id",
+        "adapter": "job adapter",
+        "schedule": ""
+    }
+}
+```
+
+* **Response Code:** 200, 400, 500
+* **Response Body:**
+```
+{
+    "job": {
+        "id": "job_id",
+    }
+}
+```
+
+### 3.3. Job Describe
+#### 3.3.1. List Job(s)
+**GET**     /v0.1/{tenant_id}/jobs
+**GET**     /v0.1/{tent_id}/jobs/{job_id}
+* **Response Code:** 200, 400, 500
+* **Response Body:**
+```
+{
+    "jobs": [
+        {
+            "id": "job id",
+            "status": "job status",
+            "name": "job name",
+            "desc": "job description",
+            "dataflow": "dataflow descriptor id",
+            "adapter": "job adapter",
+            "schedule": "",
+            "fee": ""
+        },
+        {
+            "id": "job id",
+            "status": "job status",
+            "name": "job name",
+            "desc": "job description",
+            "dataflow": "dataflow descriptor id",
+            "adapter": "job adapter",
+            "schedule": "",
+            "fee": ""
+        }
+    ]
+}
+```
+
+#### 3.3.2. Show Job Executing History
+**GET**     /v0.1/{tenant_id}/job/{job_id}/history
+* **Response Code:** 200, 400, 500
+* **Response Body:**
+```
+{
+    "histroy": [
+        {
+            "id": "job executing id",
+            "status": "job status",
+            "start": "start time",
+            "end": "end time",
+            "fee": "fee"
+        },
+        {
+            "id": "job executing id",
+            "status": "job status",
+            "start": "start time",
+            "end": "end time",
+            "fee": "fee"
+        }
+    ]
+}
+```
