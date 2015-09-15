@@ -41,10 +41,10 @@ Tracking and monitoring the job status during the job executing, and push the me
 ### 2.4. Adapter Interface / Adapters
 * Common Interface for job submitting and tracking, to adapter the job server with Spark/Hadoop/YARN ... services.
 * Adapters
-  1. Standalone Spark adapter
-  1. Spark on YARN adapter
-  1. Hadoop adapter (deferred)
-  1. Hadoop on YARN adapter (deferred)
+  * Standalone Spark adapter
+  * Spark on YARN adapter
+  * Hadoop adapter (deferred)
+  * Hadoop on YARN adapter (deferred)
 
 ### 2.5. Job Scheduler
 Schedule the user job executing time.
