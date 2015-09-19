@@ -19,10 +19,10 @@ Challenges for the enterprise to analysis the data
 2. What we can do to solve the problem
 --------------------------------------------
 - Online data processing platform
-- Multiple tenant enabled, data isolation
-- Built-in ETL data adaptor
-  1. mysql data adaptor that can read mysql dump file
-  2. csv data adaptor
+- Multiple tenant enabled, with data encryption and isolation
+- Built-in ETL data connector
+  1. mysql data connector that can connect mysql or dump file
+  2. flat file connector - csv, excel 
 - Built-in public data sources
   1. Economic - stock, money rate, oil price
   2. country and provinces with map

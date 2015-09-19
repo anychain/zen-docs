@@ -40,16 +40,16 @@ Submit the user job via the *Adapter Interface* to Spark, Hadoop, YARN ... when 
 **Note:** could be deferred to next release.
 Tracking and monitoring the job status during the job executing, and push the messages to **Dispatcher Service**.
 
-### 2.4. Adapter Interface / Adapters
+### 2.4. Job Scheduler
+Schedule the user job executing time.
+
+### 2.5. Adapter Interface / Adapters
 * Common Interface for job submitting and tracking, to adapter the job server with Spark/Hadoop/YARN ... services.
-* Adapters
+* Adapters (Oozie adapter)
   * Standalone Spark adapter
   * Spark on YARN adapter
   * Hadoop adapter (deferred)
   * Hadoop on YARN adapter (deferred)
-
-### 2.5. Job Scheduler
-Schedule the user job executing time.
 
 ### 2.6. Service Clients
 * Keystone Client
@@ -92,7 +92,9 @@ Schedule the user job executing time.
         "desc": "job description",
         "dataflow": "dataflow descriptor id",
         "adapter": "job adapter",
-        "schedule": ""
+        "schedule": "",
+        "success_to": "",
+        "fail_to": ""
     }
 }
 ```
