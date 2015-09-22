@@ -16,6 +16,10 @@
         limitations under the License.
 -->
 
+# Common Service
+
+  ![Common Service Framework](/design/_static/common-service-framework.png)
+
 # Zen Services/Components
 
 ===
