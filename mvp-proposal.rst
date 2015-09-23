@@ -36,7 +36,7 @@ Challenges for the enterprise to analysis the data
   1. Official Oil/Gas production history 
 
 - Algorithm
-  1. 线性回归   
+  1. linear regression 
   
 - Vistualization
   1. Trend
@@ -61,7 +61,7 @@ Challenges for the enterprise to analysis the data
   1. PV data from public account in wechat
 
 - Algorithm
-  1. 贝叶斯
+  1. naive bayes
 
 － Visualization
   1. Statistics bar chat
